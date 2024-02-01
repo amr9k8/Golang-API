@@ -44,9 +44,9 @@ This project is an organization-user JWT authentication system implemented in Go
 |   |-- controllers/
 |   |   - Controllers manage the application's flow and business logic. They receive input from the handlers, process it using the models, and return results to be presented by the views.
 |   |-- db/models/
-|   |   - Represents the data layer of the application. It typically includes data models and the logic for interacting with the database or other data sources.
+|   |   - Represents the data layer of the application. It typically includes data models.
 |   |-- db/repository/
-|   |   - Contain Database operations.
+|   |   - Contain operations for interacting with the MongoDB database or other data sources.
 |   |-- utils/
 |       - Contains utility functions or modules that can be used across different parts of the application. Utilities might include helper functions, generic components, or modules that provide common functionalities.
 |-- Api/
