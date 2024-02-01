@@ -17,14 +17,6 @@ This project is an organization-user JWT authentication system implemented in Go
 - Run `go run main.go`
 
 
-#### FRAMEWORKS AND LIBRARIES USED
-
-- `gin` - It is most popular go framework that is designed for building APIs. Hence, I have used gin to complete the task.
-- `go-jwt` - It is the most popular package for implementing JWTs in Go. It has many pre-defined functions for signing and validating JWTs. Hence, used I have used it here, to sign and validate access_token and refresh_token.
-- `redis` - A key-value store that acts as a caching layer in our system, enhancing performance and speeding up data retrieval. Redis is instrumental in optimizing the overall responsiveness of the authentication system.
-- `mongodb` - A NoSQL database utilized for its flexibility and scalability. MongoDB stores hashed passwords securely using the Provos and Mazières's bcrypt adaptive hashing algorithm, ensuring robust password management within the application.
-
-
 
 #### APIs&Features
 
