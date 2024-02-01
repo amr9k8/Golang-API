@@ -1,0 +1,17 @@
+Features :
+1)	LOGIN
+2)	SIGNUP
+3)	RefreshToken
+4)	GetAllUsers [ for Admin maybe or testing purpose]
+5)	GetUserbyID
+6)	DeleteUserbyID
+7)	UpdateUser
+8)	GetAllOrganizations
+9)	GetOrganizationbyID
+10)	AddOrganization
+11)	InviteMemberIntoOrganization [readonly access]
+12)	UpdateOrganization [Must have Full Access ]
+13)	UpdateOrganization [Must have Full Access ]
+14)	TokenRefresh
+15)	Bearer Authorization
+16)	JWT Authentication
