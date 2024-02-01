@@ -26,27 +26,28 @@ This project is an organization-user JWT authentication system implemented in Go
 
 
 
-#### APIs BUILD
+#### APIs&Features
 
-- **/LOGIN** POST -  User authentication with JWT.
-- **/SIGNUP** POST - User registration functionality.
-- **/RefreshJWTToken** POST - Refresh JWT token for prolonged sessions.
-- **/GetAllUsers** GET -  Retrieve all users (for Admin or testing purposes).
-- **/GetUserbyID** GET - Retrieve user details by ID.
-- **/DeleteUserbyID** DELETE - Delete user by ID.
-- **/UpdateUser** PUT - Update user information.
-- **/GetAllOrganizations** GET - Retrieve details of all organizations.
-- **/GetOrganizationbyID** GET - Retrieve organization details by ID.
-- **/AddOrganization** POST - Add a new organization.
-- **/InviteMemberIntoOrganization** POST -  Invite members with readonly access.
-- **/UpdateOrganization** PUT - Update organization details (Full Access required).
-- **/DeleteOrganization** DELETE - Delete organization by id (Full Access required).
-- **/TokenRefresh** POST - Refresh authentication token.
-- **/Bearer Authorization** -  Secure API access using Bearer token.
-- **/JWT Authentication** - JSON Web Token-based user authentication.
+- **LOGIN** POST -  User authentication with JWT.
+- **SIGNUP** POST - User registration functionality.
+- **RefreshJWTToken** POST - Refresh JWT token for prolonged sessions.
+- **GetAllUsers** GET -  Retrieve all users (for Admin or testing purposes).
+- **GetUserbyID** GET - Retrieve user details by ID.
+- **DeleteUserbyID** DELETE - Delete user by ID.
+- **UpdateUser** PUT - Update user information.
+- **GetAllOrganizations** GET - Retrieve details of all organizations.
+- **GetOrganizationbyID** GET - Retrieve organization details by ID.
+- **AddOrganization** POST - Add a new organization.
+- **InviteMemberIntoOrganization** POST -  Invite members with readonly access.
+- **UpdateOrganization** PUT - Update organization details (Full Access required).
+- **DeleteOrganization** DELETE - Delete organization by id (Full Access required).
+- **TokenRefresh** POST - Refresh authentication token.
+- **Bearer Authorization** -  Secure API access using Bearer token.
+- **JWT Authentication** - JSON Web Token-based user authentication.
 
 
-#### Project Structure 
+#### Project Structure
+<pre>
 |-- pkg/
 |   |-- controllers/
 |   |   - Controllers manage the application's flow and business logic. They receive input from the handlers, process it using the models, and return results to be presented by the views.
@@ -69,12 +70,12 @@ This project is an organization-user JWT authentication system implemented in Go
 |-- go.sum
 |-- Dockerfile : Instructions for building the application image.
 |-- docker-compose.yaml: Configuration for Docker Compose.
-
+</pre>
 #### Technologies Used
 
-- **/Golang
-- **/Gin (Web framework)
-- **/MongoDB (Database)
-- **/Redis (Caching)
-- **/Docker (Containerization)
-- **/docker-compose (Container orchestration)
+- **Golang**
+- **Gin (Web framework)**
+- **MongoDB (Database)**
+- **Redis (Caching)**
+- **Docker (Containerization)**
+- **docker-compose (Container orchestration)**
